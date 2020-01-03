@@ -109,7 +109,7 @@ exampleMini2 = [3,3,1105,-1,9,1101,0,0,12,4,12,99,1]
 userInput2 = ConstantInput(5)
 userOutput2 = Int[]
 
-runProgram(exampleMini2, userInput2, userOutput2, false)
+runProgram(program, userInput2, userOutput2, false)[end]
 
 #c1 = Channel{Int}(1)
 #push!(c1, 1)
